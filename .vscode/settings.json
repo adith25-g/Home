@@ -1,0 +1,7 @@
+{
+    "explorer.excludeGitIgnore": true,
+    "git.ignoreLegacyWarning": true,
+    "git.ignoreMissingGitWarning": true,
+    "git.rebaseWhenSync": true,
+    "git.rememberPostCommitCommand": true
+}
