@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock title %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+{% block body %}
+<div class="jumbotron p-5 text-white rounded bg-info" style="height:560px;">
+    <div class="col-md-6 px-0" style="margin: 50px;">
+      <h1 class="display-4 " style="font-size:90px;">About Us!</h1>
+      <p class="lead my-3" style="font-size: large;">Home is everyone's dream and we help make that dream better.</p>
+      <!-- {% comment %} <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p> {% endcomment %}
+      <a class="btn btn-dark btn-lg" href="#123" role="button">Learn more</a> -->
+    </div>
+  </div>
+  <div class="p-3 mb-2  text-info" id="123">
+    <div class="row m-5" >
+        <div class="container fluid px-0"><h1 class="my-3 text-center">Why Choose Us?</h1></div>
+        <div class="col-xl-4">
+          <div class="container fluid px-0" >
+            <!-- {%load static%}
+            <img src = "{%static 'img1.webp' %}" width="300" height="300"   > -->
+          </div>
+          <h2 class="head2-1 " style=" text-align:center" >Branded</h2>
+          <p style="font-size:20px; text-align:center">We provide branded interior accessories with 100% quality assurance</p>
+        
+        </div><!-- /.col-lg-4 -->
+        <div class="col-xl-4">
+          <div class="container" >
+            <!-- {%load static%} -->
+            <!-- <img src = "{%static 'images/affordable.png'%}" width="300" height="300"  style=" background-color: white;border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-left:60px" > -->
+          </div>
+          <h2 class="head2-2 " style=" text-align:center">Affordable Prices</h2>
+          <p style="font-size:20px ; text-align:center">All the accessories are in affordable prices. If there is a problem in the accessories, there is a return back policy. Payment can be made online safely </p>
+         
+        </div><!-- /.col-lg-4 -->
+        <div class="col-xl-4">
+          <div class="container-center" >
+            <!-- {%load static%}
+            <img src = "{%static 'images/car-wash.jpg'%}" width="300" height="300"  style=" background-color: white;border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-left:60px" > -->
+          </div>
+          <h2 class="head2-3" style=" text-align:center">Home Delivary</h2>
+          <p style="font-size:20px ; text-align:center">Home delivary available with affordable price.</p>
+        </div><!-- /.col-lg-4 -->
+    </div>
+    </div> 
+{% endblock body %}
